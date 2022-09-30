@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\JCCC Courses\\CIS-264 Application Development and Programming\\DnDWebAPI2\\DnDWebAPI\\DnDWebAPI.csproj": {}
+    "E:\\Github_Projects\\DnD_Character_BuilderV1.0\\DnDWebAPI\\DnDWebAPI.csproj": {}
   },
   "projects": {
-    "E:\\JCCC Courses\\CIS-264 Application Development and Programming\\DnDWebAPI2\\DnDWebAPI\\DnDWebAPI.csproj": {
+    "E:\\Github_Projects\\DnD_Character_BuilderV1.0\\DnDWebAPI\\DnDWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\JCCC Courses\\CIS-264 Application Development and Programming\\DnDWebAPI2\\DnDWebAPI\\DnDWebAPI.csproj",
+        "projectUniqueName": "E:\\Github_Projects\\DnD_Character_BuilderV1.0\\DnDWebAPI\\DnDWebAPI.csproj",
         "projectName": "DnDWebAPI",
-        "projectPath": "E:\\JCCC Courses\\CIS-264 Application Development and Programming\\DnDWebAPI2\\DnDWebAPI\\DnDWebAPI.csproj",
+        "projectPath": "E:\\Github_Projects\\DnD_Character_BuilderV1.0\\DnDWebAPI\\DnDWebAPI.csproj",
         "packagesPath": "C:\\Users\\megne\\.nuget\\packages\\",
-        "outputPath": "E:\\JCCC Courses\\CIS-264 Application Development and Programming\\DnDWebAPI2\\DnDWebAPI\\obj\\",
+        "outputPath": "E:\\Github_Projects\\DnD_Character_BuilderV1.0\\DnDWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

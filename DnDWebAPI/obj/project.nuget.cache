@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SaKdQeIW+VngVMjnRb6ByGPPJzkMpqCLBZp9ZOmez5henoxlSEHUJfr0LavV3oSe0rmEP+epctvpSjSvusB5sg==",
+  "dgSpecHash": "keNNfhvrwWF3cIkfGTy0VVraZOmdntPiE8oqaborZ9q/klmvjnqije5BqOakYAg/YZn4Hx1N70vIRebsOwlqnA==",
   "success": true,
-  "projectFilePath": "E:\\JCCC Courses\\CIS-264 Application Development and Programming\\DnDWebAPI2\\DnDWebAPI\\DnDWebAPI.csproj",
+  "projectFilePath": "E:\\Github_Projects\\DnD_Character_BuilderV1.0\\DnDWebAPI\\DnDWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\megne\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\megne\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

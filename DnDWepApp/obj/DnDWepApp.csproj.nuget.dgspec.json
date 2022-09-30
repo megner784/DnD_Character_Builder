@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\JCCC Courses\\CIS-264 Application Development and Programming\\DnDWebAPI2\\DnDWepApp\\DnDWepApp.csproj": {}
+    "E:\\Github_Projects\\DnD_Character_BuilderV1.0\\DnDWepApp\\DnDWepApp.csproj": {}
   },
   "projects": {
-    "E:\\JCCC Courses\\CIS-264 Application Development and Programming\\DnDWebAPI2\\DnDWepApp\\DnDWepApp.csproj": {
+    "E:\\Github_Projects\\DnD_Character_BuilderV1.0\\DnDWepApp\\DnDWepApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\JCCC Courses\\CIS-264 Application Development and Programming\\DnDWebAPI2\\DnDWepApp\\DnDWepApp.csproj",
+        "projectUniqueName": "E:\\Github_Projects\\DnD_Character_BuilderV1.0\\DnDWepApp\\DnDWepApp.csproj",
         "projectName": "DnDWepApp",
-        "projectPath": "E:\\JCCC Courses\\CIS-264 Application Development and Programming\\DnDWebAPI2\\DnDWepApp\\DnDWepApp.csproj",
+        "projectPath": "E:\\Github_Projects\\DnD_Character_BuilderV1.0\\DnDWepApp\\DnDWepApp.csproj",
         "packagesPath": "C:\\Users\\megne\\.nuget\\packages\\",
-        "outputPath": "E:\\JCCC Courses\\CIS-264 Application Development and Programming\\DnDWebAPI2\\DnDWepApp\\obj\\",
+        "outputPath": "E:\\Github_Projects\\DnD_Character_BuilderV1.0\\DnDWepApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

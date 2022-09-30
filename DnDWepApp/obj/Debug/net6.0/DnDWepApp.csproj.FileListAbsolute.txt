@@ -54,3 +54,31 @@ E:\JCCC Courses\CIS-264 Application Development and Programming\DnDWebAPI2\DnDWe
 E:\JCCC Courses\CIS-264 Application Development and Programming\DnDWebAPI2\DnDWepApp\obj\Debug\net6.0\DnDWepApp.pdb
 E:\JCCC Courses\CIS-264 Application Development and Programming\DnDWebAPI2\DnDWepApp\obj\Debug\net6.0\DnDWepApp.genruntimeconfig.cache
 E:\JCCC Courses\CIS-264 Application Development and Programming\DnDWebAPI2\DnDWepApp\obj\Debug\net6.0\ref\DnDWepApp.dll
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\bin\Debug\net6.0\appsettings.Development.json
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\bin\Debug\net6.0\appsettings.json
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\bin\Debug\net6.0\DnDWepApp.staticwebassets.runtime.json
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\bin\Debug\net6.0\DnDWepApp.exe
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\bin\Debug\net6.0\DnDWepApp.deps.json
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\bin\Debug\net6.0\DnDWepApp.runtimeconfig.json
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\bin\Debug\net6.0\DnDWepApp.dll
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\bin\Debug\net6.0\DnDWepApp.pdb
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\DnDWepApp.csproj.AssemblyReference.cache
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\DnDWepApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\DnDWepApp.AssemblyInfoInputs.cache
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\DnDWepApp.AssemblyInfo.cs
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\DnDWepApp.csproj.CoreCompileInputs.cache
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\DnDWepApp.MvcApplicationPartsAssemblyInfo.cache
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\DnDWepApp.RazorAssemblyInfo.cache
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\DnDWepApp.RazorAssemblyInfo.cs
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\staticwebassets.build.json
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\staticwebassets.development.json
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\scopedcss\bundle\DnDWepApp.styles.css
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\scopedcss\projectbundle\DnDWepApp.bundle.scp.css
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\DnDWepApp.csproj.CopyComplete
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\DnDWepApp.dll
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\refint\DnDWepApp.dll
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\DnDWepApp.pdb
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\DnDWepApp.genruntimeconfig.cache
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\ref\DnDWepApp.dll
