@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DnDWebAPI", "DnDWebAPI\DnDWebAPI.csproj", "{4932D5C6-0B67-4D26-B967-9F237734225B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnDWepApp", "DnDWepApp\DnDWepApp.csproj", "{8F9D586D-6D14-40D8-8D58-259BC8284EA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4932D5C6-0B67-4D26-B967-9F237734225B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4932D5C6-0B67-4D26-B967-9F237734225B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4932D5C6-0B67-4D26-B967-9F237734225B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4932D5C6-0B67-4D26-B967-9F237734225B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F9D586D-6D14-40D8-8D58-259BC8284EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9D586D-6D14-40D8-8D58-259BC8284EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9D586D-6D14-40D8-8D58-259BC8284EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9D586D-6D14-40D8-8D58-259BC8284EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3EAAF98-D7B8-4868-8202-2097DF492175}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,73 @@
+﻿
+@model DnDWepApp.Models.CharacterEntity
+
+@{
+    ViewData["Title"] = "Update Character";
+}
+
+<h4>Update Character</h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="UpdateCharacter">
+
+            <div class="form-group">
+                <label asp-for="CharacterName" class="control-label">Character Name</label>
+                <input asp-for="CharacterName" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="PlayerName" class="control-label">Player Name</label>
+                <input asp-for="PlayerName" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Race" class="control-label"></label>
+                <input asp-for="Race" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="CharacterClass" class="control-label">Class</label>
+                <input asp-for="CharacterClass" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Level" class="control-label"></label>
+                <input asp-for="Level" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Strength" class="control-label"></label>
+                <input asp-for="Strength" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Dexterity" class="control-label"></label>
+                <input asp-for="Dexterity" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Constitution" class="control-label"></label>
+                <input asp-for="Constitution" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Intelligence" class="control-label"></label>
+                <input asp-for="Intelligence" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Wisdom" class="control-label"></label>
+                <input asp-for="Wisdom" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Charisma" class="control-label"></label>
+                <input asp-for="Charisma" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="ProficiencyBonus" class="control-label">Proficiency Bonus</label>
+                <input asp-for="ProficiencyBonus" class="form-control" />
+            </div>
+
+            <input type="hidden" asp-for="Id" />
+
+            <button type="submit" class="btn btn-primary">Update</button>
+            <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Cancel</a>
+            
+        </form>
+
+    </div>
+
+</div>

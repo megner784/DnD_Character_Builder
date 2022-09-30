@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uInp/NvRhcojemF242J7YETyCwSPuMnwF3rHmYqOyCssZLAYv15JfTjnaKzETz7Oedsi4EMa1VTq/Y2kbq1cmg==",
+  "success": true,
+  "projectFilePath": "E:\\JCCC Courses\\CIS-264 Application Development and Programming\\DnDWebAPI2\\DnDWepApp\\DnDWepApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\megne\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

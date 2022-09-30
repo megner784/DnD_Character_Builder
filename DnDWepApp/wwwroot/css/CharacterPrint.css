@@ -1,0 +1,55 @@
+﻿
+.gridContent {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 1em;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+div {
+    padding-bottom: 1em;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+textarea {
+    height: 90%;
+    width: 100%;
+    border: none;
+}
+
+footer {
+    background-color: white;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.textBox {
+    padding: 0.5em;
+    border: 2px dotted black;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.statBox {
+    border: 2px solid black;
+    margin-right: 2em;
+    margin-bottom: 0.5em;
+    text-align: left;
+    padding: 0.2em;
+}
+
+.textHead {
+    text-align: left;
+    padding-bottom: 0.5em;
+}

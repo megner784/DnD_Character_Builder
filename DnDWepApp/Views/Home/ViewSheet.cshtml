@@ -1,0 +1,53 @@
+﻿@model DnDWepApp.Models.CharacterEntity
+
+<link rel="stylesheet" media="screen" href="~/css/CharacterStyle.css" />
+<link rel="stylesheet" media="print"  href="~/css/CharacterPrint.css" />
+
+@{
+    ViewData["Title"] = "D&D NPC Character Sheet";
+}
+
+    <div id="character-wrapper">
+
+        <h1>NPC Character Sheet</h1>
+
+        <div class="gridContent">
+            <div class="charTraits">
+                <p id="name">Name: @Model.CharacterName</p>
+            </div>
+            <div class="charTraits">
+                <p id="race">Race: @Model.Race</p>
+            </div>
+            <div class="charTraits">
+                <p id="level">Level: @Model.Level</p>
+            </div>
+            <div class="charTraits">
+                <p id="class">Class: @Model.CharacterClass</p>
+            </div>
+            <div>
+                Stats:
+                <p id="strBox" class="statBox">Strength: @Model.Strength</p>
+                <p id="dexBox" class="statBox">Dexterity: @Model.Dexterity</p>
+                <p id="conBox" class="statBox">Constitution: @Model.Constitution</p>
+                <p id="intBox" class="statBox">Intelligence: @Model.Intelligence</p>
+                <p id="wisBox" class="statBox">Wisdom: @Model.Wisdom</p>
+                <p id="chaBox" class="statBox">Charisma: @Model.Charisma</p>
+            </div>
+            <div class="textBox">
+                <p class="textHead">Description:</p>
+                <textarea></textarea>
+            </div>
+            <div class="textBox">
+                <p class="textHead">traits:</p>
+                <textarea></textarea>
+            </div>
+            <div class="textBox">
+                <p class="textHead">Character Info:</p>
+                <textarea></textarea>
+            </div>
+            <!--<div class="textBox">
+                    <p class="textHead">Notes:</p>
+                    <textarea></textarea>
+                </div> This may be used later. -->
+        </div>
+     </div>

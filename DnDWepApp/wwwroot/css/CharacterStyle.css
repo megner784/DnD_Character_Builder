@@ -1,0 +1,76 @@
+﻿
+html, body {
+    background-image: linear-gradient(to top left, #df0000, #959595);
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    background-color: white;
+    font-size: 1.5em;
+    padding: 1em;
+    height: 100%;
+}
+
+p {
+    padding-bottom: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin: 0;
+    text-align: center;
+}
+
+footer {
+    background-color: white;
+    padding: 1em;
+}
+/*.charTraits{} for later use.*/
+textarea {
+    height: 90%;
+    width: 100%;
+}
+
+.textBox {
+    padding: 0.5em;
+    border: 2px dotted red;
+    border-radius: 5px;
+    height: 100%;
+    grid-column-end: auto;
+}
+
+.statBox {
+    border: 2px solid red;
+    margin-right: 2em;
+    margin-bottom: 0.5em;
+    text-align: left;
+    padding: 0.2em;
+}
+
+.textHead {
+    text-align: left;
+    padding-bottom: 0.5em;
+}
+
+@media (min-width: 600px) {
+    .gridContent {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1024px) {
+    #character-wrapper {
+        margin: auto;
+        width: 60%;
+    }
+}

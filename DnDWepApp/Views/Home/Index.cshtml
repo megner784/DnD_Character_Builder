@@ -1,0 +1,47 @@
+﻿@model List<CharacterEntity>
+
+@{
+   ViewData["Title"] = "Fetching Data from DnDWebAPI";
+}
+
+<h2>List of Game Characters</h2>
+
+<a asp-controller="Home" asp-action="AddCharacter" class="btn btn-primary">Create Character</a>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>@Html.DisplayName("Character Name")</th>
+		
+			<th>@Html.DisplayName("Player Name")</th>
+				
+			<th>@Html.DisplayName("Race")</th>
+				
+			<th>@Html.DisplayName("Class")</th>
+				
+			<th>@Html.DisplayName("Level")</th>
+
+			<th>@Html.DisplayName("Action")</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		@foreach(var row in Model)
+		{
+			<tr>
+				<td>@row.CharacterName</td>
+				<td>@row.PlayerName</td>
+				<td>@row.Race</td>
+				<td>@row.CharacterClass</td>
+				<td>@row.Level</td>
+				<td>
+					<a asp-controller="Home" asp-action="ViewCharacter"   asp-route-id="@row.Id" class="btn btn-primary">Update</a>
+					<a asp-controller="Home" asp-action="DeleteCharacter" asp-route-id="@row.Id" class="btn btn-danger">Delete</a>
+					<a asp-controller="Home" asp-action="ViewSheet"       asp-route-id="@row.Id" class="btn btn-danger">View Sheet</a>
+				</td>
+			</tr>
+		}
+
+	</tbody>
+
+</table>
