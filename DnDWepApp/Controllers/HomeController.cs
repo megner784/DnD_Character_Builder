@@ -50,6 +50,66 @@ namespace DnDWepApp.Controllers
         // This action will ADD a new game character
         public async Task<ActionResult<String>> AddCharacter(CharacterEntity gamechar)
         {
+            List<GameCharacterClass> GameCharClassList = new List<GameCharacterClass>();
+
+            GameCharClassList.Add(new GameCharacterClass { ClassID = "Barbarian",  ClassName = "Barbarian" });
+            GameCharClassList.Add(new GameCharacterClass { ClassID = "Bard",       ClassName = "Bard" });
+            GameCharClassList.Add(new GameCharacterClass { ClassID = "Cleric",     ClassName = "Cleric" });
+            GameCharClassList.Add(new GameCharacterClass { ClassID = "Druid",      ClassName = "Druid" });
+            GameCharClassList.Add(new GameCharacterClass { ClassID = "Fighter",    ClassName = "Fighter" });
+            GameCharClassList.Add(new GameCharacterClass { ClassID = "Monk",       ClassName = "Monk" });
+            GameCharClassList.Add(new GameCharacterClass { ClassID = "Paladin",    ClassName = "Paladin" });
+            GameCharClassList.Add(new GameCharacterClass { ClassID = "Ranger",     ClassName = "Ranger" });
+            GameCharClassList.Add(new GameCharacterClass { ClassID = "Rogue",      ClassName = "Rogue" });
+            GameCharClassList.Add(new GameCharacterClass { ClassID = "Sorcerer",   ClassName = "Sorcerer" });
+            GameCharClassList.Add(new GameCharacterClass { ClassID = "Warlock",    ClassName = "Warlock" });
+            GameCharClassList.Add(new GameCharacterClass { ClassID = "Wizard",     ClassName = "Wizard" });
+
+            ViewBag.ClassList = GameCharClassList;
+
+            List<GameCharacterRace> GameCharRaceList = new List<GameCharacterRace>();
+
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Dragonborn",          RaceName = "Dragonborn" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Dragonborn (BlacK)",  RaceName = "Dragonborn (Black)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Dragonborn (Blue)",   RaceName = "Dragonborn (Blue)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Dragonborn (Brass)",  RaceName = "Dragonborn (Brass)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Dragonborn (Bronze)", RaceName = "Dragonborn (Bronze)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Dragonborn (Copper)", RaceName = "Dragonborn (Copper)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Dragonborn (Gold)",   RaceName = "Dragonborn (Gold)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Dragonborn (Green)",  RaceName = "Dragonborn (Green)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Dragonborn (Red)",    RaceName = "Dragonborn (Red)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Dragonborn (Silver)", RaceName = "Dragonborn (Silver)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Dragonborn (White)",  RaceName = "Dragonborn (White)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Dwarf",               RaceName = "Dwarf" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Dwarf (Hill)",        RaceName = "Dwarf (Hill)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Dwarf (Mountain)",    RaceName = "Dwarf (Mountain)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Elf",                 RaceName = "Elf" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Elf (Dark/Drow)",     RaceName = "Elf (Dark/Drow)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Elf (Half)",          RaceName = "Elf (Half)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Elf (High)",          RaceName = "Elf (High)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Elf (Wood)",          RaceName = "Elf (Wood)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Gnome",               RaceName = "Gnome" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Gnome (Forest)",      RaceName = "Gnome (Forest)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Gnome (Rock)",        RaceName = "Gnome (Rock)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Gnome (Deep)",        RaceName = "Gnome (Deep)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Halfling",            RaceName = "Halfling" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Halfling (Light)",    RaceName = "Halfling (Light)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Halfling (Stout)",    RaceName = "Halfling (Stout)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Human",               RaceName = "Human" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Human (Calishite)",   RaceName = "Human (Calishite)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Human (Chondathan)",  RaceName = "Human (Chondathan)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Human (Damarian)",    RaceName = "Human (Damarian)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Human (Illuskan)",    RaceName = "Human (Illuskan)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Human (Mulan)",       RaceName = "Human (Mulan)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Human (Rashemi)",     RaceName = "Human (Rashemi)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Human (Shou)",        RaceName = "Human (Shou)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Human (Tethyrian)",   RaceName = "Human (Tethyrian)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Human (Turami)",      RaceName = "Human (Turami)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Orc (Half)",          RaceName = "Orc (Half)" });
+            GameCharRaceList.Add(new GameCharacterRace { RaceID = "Tiefling",            RaceName = "Tiefling" });
+
+            ViewBag.RaceList = GameCharRaceList;
+
             CharacterEntity obj = new CharacterEntity()
             {
                 CharacterName    = gamechar.CharacterName,
@@ -67,7 +127,7 @@ namespace DnDWepApp.Controllers
             };
 
             // Check if user entered a valid character name
-            if (gamechar.CharacterName != null)
+            if (gamechar.CharacterName != null || gamechar.CharacterName.Length > 0)
             {
 
                 using (var httpClient = new HttpClient(_clientHandler))
@@ -89,6 +149,10 @@ namespace DnDWepApp.Controllers
                     }
                 }
             }
+
+            // Bind to the view model
+            ViewData.Model = obj;
+
             return View();
         }
 
@@ -147,7 +211,7 @@ namespace DnDWepApp.Controllers
         // This action will DELETE a game character
         public async Task<ActionResult<String>> DeleteCharacter(int Id)
         {
-            string message = "";
+            //string message = "";
 
             using (var httpClient = new HttpClient(_clientHandler))
             {
@@ -155,8 +219,12 @@ namespace DnDWepApp.Controllers
 
                 using (var response = await httpClient.DeleteAsync("api/Character/" + Id))
                 {
-                    message = await response.Content.ReadAsStringAsync();
+                    //message = await response.Content.ReadAsStringAsync();
 
+                    if (response.IsSuccessStatusCode)
+                    {
+                        return RedirectToAction("Index", "Home");
+                    }
                 }
             }
 

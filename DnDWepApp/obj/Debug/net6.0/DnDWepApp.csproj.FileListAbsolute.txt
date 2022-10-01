@@ -82,3 +82,4 @@ E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\refint\D
 E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\DnDWepApp.pdb
 E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\DnDWepApp.genruntimeconfig.cache
 E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\obj\Debug\net6.0\ref\DnDWepApp.dll
+E:\Github_Projects\DnD_Character_BuilderV1.0\DnDWepApp\bin\Debug\net6.0\libman.json
